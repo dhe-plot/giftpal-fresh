@@ -20,6 +20,9 @@ import ChatbotDemo from './components/ui/chatbot-demo'
 import { Default as GlowCardDemo } from './components/ui/demo'
 import GiftLoaderDemo from './components/ui/gift-loader-demo'
 
+// Import Login demo
+import { LoginDemo } from './components/ui/login-demo'
+
 // Import Auth components
 import SignInPage from './components/auth/SignInPage'
 import OnboardingFlow from './components/auth/OnboardingFlow'
@@ -49,6 +52,7 @@ function App() {
         <Route path="/chatbot-demo" element={<ChatbotDemo />} />
         <Route path="/glowcard-demo" element={<GlowCardDemo />} />
         <Route path="/gift-loader-demo" element={<GiftLoaderDemo />} />
+        <Route path="/login-demo" element={<LoginDemo />} />
         <Route path="/sign-in" element={<SignInPage />} />
         <Route path="/onboarding" element={<OnboardingFlow />} />
         <Route path="/profile" element={<ProfilePage />} />
